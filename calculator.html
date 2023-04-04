@@ -1,0 +1,99 @@
+<html>
+    <title></title>
+    <head>
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="MAXWELL.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html" class="active"><img src="img/logo.jpg"></a>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="index.html" class="active"> Home</a> </li>
+                    <li><a href="about.html"> About</a></li>
+                    <li> <a href="service.html">Services</a></li>
+                    <li> <a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            </div>
+        <div class="calculator">
+<p style="margin-left: 22px; font-size: 20px;color: white;">Loan Calculator</p>
+</div>
+<p>Find the best loan payment terms  fou you entering an amount, interest rate, and borrowing period. All borrowing  rates used in this tool are indicative.</p>
+<div class="total">
+        <p>Monthly Repayment(KES)</p>
+              <P placeholder="0.00" id="bury"></P>
+        <p>Total Repayment(KES)</p> 
+        <P placeholder="0.00" id="burry"></P> 
+</div>
+<div class="totall">
+    <label type="text" style="font-size: 17px; margin-left: 20px;" >Loan-Amount(KES)</label><br><br>
+<input type="number" id="demo" placeholder="e.g.100000" oninput="myCalculator()"/><br><br>
+<label type="text" style="font-size: 17px; margin-left: 20px;">Annual Interest Rate(%)</label><br><br>
+<input type="number" id="totall" placeholder="13.5"oninput="myCalculator()"/><br><br>
+<label type="textcan " style="font-size: 17px; margin-left: 20px;">Term(Months)</label><br><br>
+<input type="number" id="totalll" placeholder="12"oninput="myCalculator()" /><br><br>
+</div>
+<p style="font-size: 15px;"><b>Disclaimer:</b> This calculator is made avalaible to you as a self-help tool for your independent use. The repayment results in every case are an approximate guide only</p>
+<div class="sign-up" >
+    <p style="color: navy;">
+  Stay informed with our latest Updates<p>
+    <p style="color: navy;font-size: 15px;">
+       sign up today to get email notifications</p>
+       <form class="sign" action="/action_page.php">
+    <input  style="width: 35%;height: 40px;" type="text" placeholder="First Name" required><br><br>
+    <input  type="email" id="email" name="email" style="width: 35%;" placeholder="Email address" required/><br><br>
+    <input id="button" type="submit" value="Sign-up" style="width: 35%; text-align: center;"></input><br><br><br>
+       </form>
+    </div>
+    <div class="help-support">
+    <p >
+Help & support
+    </p>
+    <p style="color: white; margin-left: 20px;">
+<a href="https://www.example.com"><u>FAQs</u></a><br>
+<a href="https://www.example.com">Complaints Handling Guidline</a><br>
+<a href="https://www.example.com">Cookies Guidance</a><br>
+<a href="https://www.example.com">Terms & Conditions</a><br>
+<a href="https://www.example.com">Privacy Statement</a><br>
+    </p>
+    <p style="margin-left: 22px; font-size: 20px;">Get PesaPap</p>
+    <button style="width: 15%;background-color: black;padding-left: 0px;color: white; padding-right: 0px;" id="button"><i class="fa fa-apple"></i>  Download on App Store</button>
+    <button style="width: 15%; background-color: black;color: white;" id="button"><i class="fa fa-Google"></i>GET IT ON Google Play</button><br><br><br>
+    <p>
+Connect with Us<br><br>
+<a href="#"><i class="fa fa-facebook"></i></a>
+<a href="#"><i class="fa fa-twitter"></i></a>
+<a href="#"><i class="fa fa-linkedin"></i></a>
+<a href="#"><i class="fa fa-instagram"></i></a>
+<a href="#"><i class="fa fa-youtube"></i></a>
+    </p>
+<footer>
+<hr><br>
+<p>Copyright@ 2023 Maxwell Bank Limited, Kenya.Regulated by the Central Bank of Kenya</p>
+<p>INTE/MG/0978/09/21</p>
+</footer>
+</div>
+<script>
+    function myDisplayer(some,elementId) {
+      document.getElementById(elementId).innerHTML = some;
+    }
+  
+    
+    function myCalculator(){
+    var  p = document.getElementById("demo").value;
+    var  r = document.getElementById("totall").value;
+    var t = document.getElementById("totalll").value;
+      let sum = p * r/100* t/12;
+      let product=sum*t;
+      myDisplayer(sum,"bury");
+      myDisplayer(product,"burry")
+    }
+    </script>
+    
+</body>
+</html>
+

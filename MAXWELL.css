@@ -1,0 +1,515 @@
+.nav a {
+    text-decoration: none;
+    color: rgb(5, 156, 210);
+    display: block;
+    height: 100%;
+    line-height: 40px;
+}
+.nav > ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.logo a:focus{
+   border: solid 3px red;
+   height: 100%;
+}
+.nav > ul > li {
+float: left;
+width: 25%;
+text-align: center;;
+}
+.nav .active {
+    background: rgb(112, 44, 137);
+    color: darkgray;
+}
+.nav {
+    position: relative;
+    top: 0px;
+    width: 40%;
+    background-color: rgb(19, 6, 71);
+    border: solid 1px black;
+    height: 100%;
+    float: right;;
+    margin: 0%;
+   
+}
+.container{
+   height: 60px;
+   margin-top: -9px;
+   background-color: rgb(12, 3, 61);
+   width: 100%;
+   margin-left: 0px;
+   padding: 4px;
+}
+a{
+    outline: none;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a:link{
+    color: rgb(30, 55, 67);
+}
+a:visited{
+    background: lightgrey;
+}
+a:focus{
+    border: 1px solid red;
+    background: lightgrey;
+}
+a:hover{
+    border: 1px solid #f8f9f9;
+    background: #124e2c;
+    color: white;
+}
+a:active{
+    text-decoration: underline;
+    border: 1px solid lightgrey;
+    background: #78a132;
+    color: white;
+}
+body{
+    background-color: white;
+}
+.logo{
+    display: block;
+    position: absolute;
+    height: 60px;
+    width: 180px;
+    margin-left: 200px;
+    margin: 1px;
+    padding-left: 20%;
+    background-color: rgb(12, 3, 61);
+   
+}
+
+#button{
+    color: black;
+    background-color: darkcyan;
+    font-size: 20px;
+    padding: 5px 20px;
+    text-align: left;
+    }
+ h2{
+    text-align: left;
+    color: white;
+    
+ }
+ .dd{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+   
+ }
+ .dd-btn{
+    padding: 15px;
+    text-align: center;
+    background: #173459;
+    border: none;
+    width: 100%;
+    color: lightskyblue;
+ }
+ .dd-content {
+    position: relative;
+    height: 0px;
+    width: 100%;
+    box-shadow: 0 18px 36px rgba(0,0,0,0.30), 0 14px 11px rgba(0,0,0,0.22);
+    transition: height 1s;
+    overflow: hidden;
+    border-bottom: 1px solid blueviolet;
+    background-color: rgb(15, 15, 62);
+ }
+ .dd:hover > .dd-content{
+height: 200px;
+ }
+ .dd-content > a{
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid white;
+    color: white;
+ }
+ .dd-content > a:last-child{
+    border: none;
+}
+ .ouside{
+    position: absolute;
+    display: block;
+    background-color: #000;;
+ }
+ .inside{
+margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+ }
+ img.inside{
+   width: 50%;
+   height: auto;
+ }
+ .tailor-made{
+   border: solid darkgray;
+    color: aqua;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-align: left;
+ }
+  img{
+    width: 100%;
+    height: 100%;
+}
+.slid p{
+color: blue;
+}
+.slid button{
+   background-color: #5c0e8a;
+   border-radius: 10px;
+   color: #000;
+}
+
+ .slid{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: white;
+ }
+ pre{
+    color: white;
+    font-size: 20px;
+ }
+ .account{
+    border: 1px solid lightslategray;
+    color: aqua;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-align: left;
+    margin-left: auto;
+    
+ }
+ .scholar{
+    border: 1px solid lightslategray;
+    color: aqua;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-align: left;
+    margin-left: auto;
+ }
+
+ .Advance{
+   color: aqua;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 20px;
+   text-align: left;
+   margin-left: auto;
+   border: 1px solid lightgrey;
+}
+.check-off{
+   color: aqua;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 20px;
+   text-align: left;
+   margin-left: auto;
+}
+.Salary-loan{
+   color: aqua;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 20px;
+   text-align: left;
+   margin-left: auto;
+   border: 1px solid lightgrey;
+}
+.browse{
+   border: 1px solid grey;
+   padding-bottom: 30px;
+}
+.sign-up{
+   text-align: center;
+   background-color: rgb(231, 231, 244);
+   height: 40%;
+   width: 100%;
+   padding: 4px;
+}
+.more{
+   border: solid 1px lightgrey;
+}
+input{
+   outline: none;
+   border: 1 px solid black;
+   text-align: left;
+}
+.help-support{
+   color: white;
+   font-size: smaller;
+   background-color: rgb(83, 83, 172);
+   width: 100%;
+   height:85%;
+   padding: 4px;
+}
+.help-support p{
+   margin-left: 20px;
+   color: white;
+}
+p{
+   font-size: 20px;
+   color: #000;
+}
+hr{
+ width: 99%;
+}
+footer{
+   text-align: left;
+   font-size: 20px;
+}
+.help-support a{
+   color: white;
+}
+.help-support button{
+   margin-left: 20px;
+   border-radius: 8% 8% 8% 8%;
+   padding: 20px;
+   height: 10%;
+   background-color: black;
+  
+}
+.contact{
+   background-color: darkblue;
+   border: solid 1px black;
+   padding: 10px;
+   color: white;
+   font-size: 20px;
+}
+.find{
+   border: solid 1px gray;
+}
+.fag{
+   border: solid 1px gray;
+   justify-content: center;
+}
+.pesa{
+   display: flex;
+}
+.connect button{
+   color: #000;
+}
+.connect.i{
+color: red;
+}
+.fa{
+   color: blue;
+   padding-right: 10px;
+}
+#button.fa{
+   text-align: right;
+}
+.fa-apple{
+   color: yellowgreen;
+   padding: 15px;
+   margin-left: 0px;
+   float: left;
+   font-size: large;
+}
+.fa-google{
+   color: yellowgreen;
+   padding: 15px;
+   margin-left: 0px;
+   float: left;
+   font-size: large;
+}
+.inquire{
+   border: solid 1px darkgrey;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+.fa-asterisk{
+   color: darkred;
+   vertical-align: super;
+   font-size: 7px;
+}
+#demo{
+   margin-left: 20px;
+   border: solid 1px darkgrey;
+   width: 95%;
+   height: 40px;
+   box-sizing: border-box;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+#totall{
+   margin-left: 20px;
+   border: solid 1px darkgrey;
+   width: 30%;
+   height: 40px;
+   box-sizing: border-box;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+#totalll{
+   margin-left: 20px;
+   border: solid 1px darkgrey;
+   width: 30%;
+   height: 40px;
+   box-sizing: border-box;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+#bury{
+   place-content: 0.00;
+}
+.totall{
+   border: solid 1px darkgray;
+   padding: 10px;
+   background-color: rgba(215, 215, 215, 0.992);
+}
+#phone{
+   margin-left: 20px;
+   border: solid 1px lightblue;
+   width: 95%;
+   height: 40px;
+   box-sizing: border-box;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+#emaill
+{
+   margin-left: 20px;
+   border: solid 1px darkgrey;
+   width: 95%;
+   height: 40px;
+   box-sizing: border-box;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+#email
+{
+   border: solid 1px darkgrey;
+   height: 40px;
+   box-sizing: border-box;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+#demo:focus{
+   border: 3px solid darkblue;
+}
+#email:focus{
+   border: 3px solid darkblue;
+}
+#phone:focus{
+   border: 3px solid darkblue;
+}
+.label{
+   height: 20px;
+}
+#sample{
+   width: 95%;
+   margin-left: 20px;
+   border: solid 1px darkgrey;
+   height: 40px;
+}
+#sample:focus{
+   border: 3px solid darkblue;
+}
+#comment{
+   width: 95%;
+   margin-left: 20px;
+   border: solid 1px darkgrey;
+}
+#comment:focus{
+   border: 3px solid darkblue;
+}
+
+#radio{
+   margin-left: 20px;
+}
+#submit{
+   margin-left: 20px;
+   background-color: blue;
+   padding: 7px;
+   width: 100px;
+   text-align: center;
+   border-radius: 5px;
+}
+.total{
+  text-align: center; 
+  height: 35%;
+  border: solid 1px darkgray;color: rgb(29, 62, 122);
+  padding: 10px;
+  margin-top:15px;
+}
+.total p{
+   color: rgb(19, 19, 214);
+}
+.about{
+   background-color: darkblue;
+   border: solid 1px black;
+   padding: 10px;
+   color: white;
+   font-size: 20px;
+}
+.calculator{
+      background-color: darkblue;
+      border: solid 1px black;
+      padding: 4px;
+      color: white;
+      font-size: 20px;
+      width: 100%;
+}
+.service{
+   background-color: darkblue;
+   border: solid 1px black;
+   padding: 10px;
+   color: white;
+   font-size: 20px;
+}
+.slido{
+   width: 100%;
+   height: 100vh;
+   background-color: #000;
+   display: flex;
+   align-items: center;
+   justify-items: center;
+   
+}
+.swiper{
+   width: 100%;
+   height: 100%;;
+}
+.swiper-slide img{
+width: 100%;
+}
+.card1{
+   height: 100vh;
+   background-image: url(img/hujenga.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.card2{
+   
+   height: 100vh;
+   background-image: url(img/dream.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.card3{
+   height: 100vh;
+   background-image: url(img/visa.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.card4{
+   height: 100vh;
+   background-image: url(img/sall.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+#button{
+   color: white;
+   background-color: blue;
+}
